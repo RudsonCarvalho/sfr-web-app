@@ -6,7 +6,7 @@ import { CoreModule } from '@app/core/core.module';
 import { SharedModule } from '@app/shared/share.module';
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
-//import { QuoteService } from './quote.service';
+import { QuoteService } from '@app/core/services/quote.service';
 
 @NgModule({
   imports: [
@@ -20,7 +20,7 @@ import { HomeComponent } from './home.component';
     HomeComponent
   ],
   providers: [
-   // QuoteService
+    QuoteService
   ]
 })
 export class HomeModule { }

@@ -5,6 +5,7 @@ import { RouteReuseStrategy, RouterModule } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
+import { ShellComponent } from './shell/shell.component';
 import { HeaderComponent } from './header/header.component';
 import { RouteReusableStrategy } from './route-reusable-strategy';
 import { AuthenticationService } from './authentication/authentication.service';
@@ -25,7 +26,8 @@ import { CacheInterceptor } from './http/cache.interceptor';
     RouterModule
   ],
   declarations: [
-    HeaderComponent
+    HeaderComponent,
+    ShellComponent
   ],
   providers: [
     AuthenticationService,

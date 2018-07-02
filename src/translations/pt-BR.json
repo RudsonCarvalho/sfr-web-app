@@ -1,0 +1,16 @@
+{
+    "APP_NAME": "Safe-Rocket",
+    "About": "Sobre",
+    "Hello world !": "Olá Mundo !",
+    "Home": "Home",
+    "Logged in as": "Logado como",
+    "Login": "Entrar",
+    "Logout": "Sair",
+    "Password": "Senha",
+    "Password is required": "Senha requerida",
+    "Username": "Usuário",
+    "Username is required": "Usuário requerido",
+    "Username or password incorrect.": "Usuário ou senha incorreto",
+    "Remember me": "Lembre me",
+    "Version": "Versão"
+  }

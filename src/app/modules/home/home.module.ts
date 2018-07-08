@@ -4,8 +4,8 @@ import { TranslateModule } from '@ngx-translate/core';
 
 import { CoreModule } from '@app/core/core.module';
 import { SharedModule } from '@app/shared/share.module';
-import { HomeRoutingModule } from './home-routing.module';
-import { HomeComponent } from './home.component';
+import { HomeRoutingModule } from '@app/modules/home/home-routing.module';
+import { HomeComponent } from '@app/modules/home/home.component';
 import { QuoteService } from '@app/core/services/quote.service';
 
 @NgModule({

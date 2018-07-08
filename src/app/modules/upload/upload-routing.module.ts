@@ -2,10 +2,10 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { extract } from '@app/core';
-import { LoginComponent } from '@app/modules/login/login.component';
+import { UploadComponent } from '@app/modules/upload/upload.component';
 
 const routes: Routes = [
-  { path: 'login', component: LoginComponent, data: { title: extract('Login') } }
+  { path: 'upload', component: UploadComponent, data: { title: extract('Upload') } }
 ];
 
 @NgModule({
@@ -13,4 +13,4 @@ const routes: Routes = [
   exports: [RouterModule],
   providers: []
 })
-export class LoginRoutingModule { }
+export class UploadRoutingModule { }

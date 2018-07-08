@@ -2,17 +2,18 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TranslateModule } from '@ngx-translate/core';
 
-import { AboutRoutingModule } from '@app/modules/about/about-routing.module';
-import { AboutComponent } from '@app/modules/about/about.component';
+
+import { UploadRoutingModule } from '@app/modules/upload/upload-routing.module';
+import { UploadComponent } from '@app/modules/upload/upload.component';
 
 @NgModule({
   imports: [
     CommonModule,
     TranslateModule,
-    AboutRoutingModule
+    UploadRoutingModule
   ],
   declarations: [
-    AboutComponent
+    UploadComponent
   ]
 })
-export class AboutModule { }
+export class UploadModule { }

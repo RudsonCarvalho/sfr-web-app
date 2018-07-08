@@ -9,12 +9,13 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CoreModule} from '@app/core/core.module';
 import { environment } from '@env/environment';
 
-import { SharedModule } from './shared/share.module';
-import { HomeModule } from './modules/home/home.module';
-import { AboutModule } from './modules/about/about.module';
-import { LoginModule } from './modules/login/login.module';
-import { AppComponent } from './app.component';
-import { AppRoutingModule } from './app-routing.module';
+import { UploadModule } from '@app/modules/upload/upload.module';
+import { SharedModule } from '@app/shared/share.module';
+import { HomeModule } from '@app/modules/home/home.module';
+import { AboutModule } from '@app/modules/about/about.module';
+import { LoginModule } from '@app/modules/login/login.module';
+import { AppComponent } from '@app/app.component';
+import { AppRoutingModule } from '@app/app-routing.module';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { AppRoutingModule } from './app-routing.module';
     HomeModule,
     AboutModule,
     LoginModule,
-AppRoutingModule
+    UploadModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,2 +1,44 @@
 $font-stack:Helvetica, sans-serif;
-$primary-color: #333;
+$font-size: 16px;
+$line-height: $font-size * 1.6;
+
+$h-1: (
+	base: rem(30px),
+	tablet: rem(36px),
+	desktop: rem(44px),
+);
+$h-2: (
+	base: rem(26px),
+	tablet: rem(30px),
+	desktop: rem(36px),
+);
+$h-3: (
+	base: rem(22px),
+	tablet: rem(26px),
+	desktop: rem(30px),
+);
+
+$p: rem(16px);
+$p-small: rem(12px);
+$p-medium: rem(18px);
+$p-large: rem(24px);
+
+$color-primary: #20b1ba;
+$color-secondary: #32db64;
+$color-background: #fefefe !default;
+$color-text: #333 !default;
+$color-text-button: #333 !default;
+$color-border: #aaa !default;
+$color-table-row: lighten($color-text, 75%) !default;
+$color-toggle-on: #2cb1b8 !default;
+$color-toggle-off: #616161 !default;
+
+
+
+// Header
+$header-height: 100px;
+$header-background-color: $color-primary;
+
+// Footer
+$footer-height: 200px;
+$footer-background-color: #aaa;

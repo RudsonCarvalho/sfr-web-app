@@ -1,5 +1,18 @@
+$assetPath : "/assets/imgs";
+
 $font-stack:Helvetica, sans-serif;
-$font-size: 16px;
+
+$font-size: 14px;
+$font-size-base: $font-size !default;
+$font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
+$font-size-h1:            floor(($font-size-base * 2.6)) !default; // ~36px
+$font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~30px
+$font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~24px
+$font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-h5:            $font-size-base !default;
+$font-size-h6: ceil(($font-size-base * 0.85)) !default; // ~12px
+
 $line-height: $font-size * 1.6;
 
 $h-1: (
@@ -23,7 +36,7 @@ $p-small: rem(12px);
 $p-medium: rem(18px);
 $p-large: rem(24px);
 
-$color-primary: #0d8700;
+$color-primary:#2FBE28;
 $color-secondary: #32db64;
 $color-background: #fefefe !default;
 $color-text: #333 !default;
@@ -74,9 +87,10 @@ $theme-colors: (
 
 // Header
 $header-font-stack: $font-stack;
-$header-font-size: 20px;
+$header-font-size: 18px;
+$header-brand-font-size: 42px;
 $header-font-color: rgb(255,255,255);
-$header-height: 80px;
+$header-height: 100px;
 $header-background-color: $color-primary;
 
 // Footer

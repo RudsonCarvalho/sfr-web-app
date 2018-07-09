@@ -1,4 +1,22 @@
+
+
 body {
     font: 100% $font-stack;
     color: $color-primary;
+    padding-top: 54px;    
   }
+
+.logo-temp {
+  width: 88.4px;
+  height: 88.4px;
+}
+.navbar-brand-name {
+  color: $white;
+  font-size: $header-brand-font-size !important;
+  vertical-align: middle !important;
+}
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}

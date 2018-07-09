@@ -1,5 +1,5 @@
 {
-    "APP_NAME": "Safe-Rocket",
+    "APP_NAME": "SafeRocket",
     "About": "About",
     "Hello world !": "Hello world !",
     "Home": "Home",
@@ -14,5 +14,6 @@
     "Remember me": "Remember me",
     "Version": "Version",
     "Send money": "Send Money",
-    "About us": "About us"
+    "About us": "About us",
+    "Create account": "Create Account"
   }

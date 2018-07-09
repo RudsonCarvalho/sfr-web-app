@@ -1,8 +1,6 @@
 import { Injectable } from '@angular/core';
 import * as CryptoJS from 'crypto-js';
 
-
-
 const IV_LENGTH = 16; // For AES always 16
 
 @Injectable()

@@ -65,7 +65,7 @@ export enum LogLevel {
      * Sets logging level to LogLevel.Warning.
      */
     static enableProductionMode() {
-      Logger.level = LogLevel.Warning;
+      Logger.level = LogLevel.Off;
     }
   
     constructor(private source?: string) { }

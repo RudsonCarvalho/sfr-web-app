@@ -1,6 +1,6 @@
 
 @import "~assets/scss/variables";
 
-.navbar {height: $header-height !important;}
+.navbar {height: $header-height !important; }
 .bg-light { background-color: $header-background-color !important}
-.nav-link {font-size: $header-font-size; color: $header-font-color !important}
+.nav-link {font-size: $header-font-size; color: $header-font-color !important; text-transform: uppercase;}

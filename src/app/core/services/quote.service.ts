@@ -4,7 +4,7 @@ import { Observable, of } from 'rxjs';
 import { map, catchError } from 'rxjs/operators';
 
 const routes = {
-  quote: (c: RandomQuoteContext) => `/jokes/random?category=${c.category}`
+  quote: (c: RandomQuoteContext) => `/quotes/random?category=${c.category}`
 };
 
 export interface RandomQuoteContext {
@@ -23,7 +23,7 @@ export class QuoteService {
       .get(routes.quote(context))
       .pipe(
         map((body: any) => body.value),
-        catchError(() => of('Error, could not load joke :-('))
+        catchError(() => of('Error, could not load quote :-('))
       );
   }
 

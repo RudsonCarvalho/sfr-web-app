@@ -1,0 +1,14 @@
+{
+  "name": "Safe-Rocket",
+  "short_name": "Safe-Rocket",
+  "theme_color": "#0d8700",
+  "background_color": "#fefefe",
+  "scope": "/",
+  "start_url": "/",
+  "display": "standalone",
+  "icons": [{
+    "src": "assets/imgs/logo/logo.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }]
+}

@@ -5,8 +5,8 @@ export const environment = {
   //version: env.npm_package_version,
   version: '1.0-prod',
   serverUrl: 'https://',
-  defaultLanguage: 'en-US',
+  defaultLanguage: 'pt-BR',
   supportedLanguages: [
-    'en-US'
+    'pt-BR', 'en-US'
   ]
 };

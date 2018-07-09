@@ -1,10 +1,6 @@
 import { ActivatedRouteSnapshot, DetachedRouteHandle, RouteReuseStrategy } from '@angular/router';
 
-/**
- * A route strategy allowing for explicit route reuse.
- * Used as a workaround for https://github.com/angular/angular/issues/18374
- * To reuse a given route, add `data: { reuse: true }` to the route definition.
- */
+
 export class RouteReusableStrategy extends RouteReuseStrategy {
 
   public shouldDetach(route: ActivatedRouteSnapshot): boolean {

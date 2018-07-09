@@ -9,9 +9,9 @@ export const environment = {
   //version: env.npm_package_version + '-dev',
   version: '1.0-dev',
   serverUrl: '/api',
-  defaultLanguage: 'en-US',
+  defaultLanguage: 'pt-BR',
   supportedLanguages: [
-    'en-US'
+    'pt-BR', 'en-US'
   ]
 };
 /*

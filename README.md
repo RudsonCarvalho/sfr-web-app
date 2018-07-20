@@ -1,4 +1,25 @@
-# SfrWebApp
+# Projeto de arquitetura base angular
+
+Arquitetura web base do projeto com:
+ - Tela de Login
+ - Seleção de i18n (multilingue)
+ - Http Interceptors
+ - Http error handlers
+ - Http cache
+ - Http service
+ - Connection Service exemplo
+ - File Security Service
+ - Componentes Web Footer, Header
+ - Log de servico ( com validacao de desligamento para producao "se necessario")
+ - Modulos:
+    - About
+    - Home
+    - Login
+    - Upload
+ - Recursos compartilhados (Shared components, models, directives, pipes)
+ - Routing
+ - Internacionalizacao I18n (com json Portugues e Ingles)
+ - Processador SCSS 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
